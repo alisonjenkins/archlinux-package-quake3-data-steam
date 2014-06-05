@@ -8,6 +8,7 @@ provides=('quake3-data')
 depends=('steamcmd')
 license=('GPL')
 install='quake3-data-steam.install'
+url='http://store.steampowered.com/app/2200'
 
 package() {
     cd $srcdir
